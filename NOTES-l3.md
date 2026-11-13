@@ -59,11 +59,11 @@ Date:   Fri Nov 13 18:24:00 2026 +0200
 ## 6. rebase -i
 ```
 до:
-pick 2d1b0a1
-pick b5966d3
+pick 2d1b0a1 WIP: чернетка
+pick b5966d3 fix typo
 після:
-pick 2d1b0a1
-squash b5966d3
+pick 2d1b0a1 WIP: чернетка
+squash b5966d3 fix typo
 ```
 Підсумковий коміт: 604c667 Пояснити особисту гілку
 Два коміти «WIP: чернетка» і «fix typo» зібрано в один. Після переписування історії гілку запушено лише з --force-with-lease і лише на свою гілку.
